@@ -1,6 +1,6 @@
 ---
 title: "1강 Cloud Infrastructure"
-description: 25-2 Cloud Computing 과목 내용 정리
+description: 25-2 Cloud Computing - 클라우드 컴퓨팅 개념과 인프라 구성요소
 date: 2025-09-02
 categories: [Cloud Computing]
 tags: [Cloud]
