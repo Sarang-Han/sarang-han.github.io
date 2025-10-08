@@ -1,0 +1,25 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* 포스트 제목 두껍게 */
+/* 글 목록에서 보이는 제목 (홈페이지) */
+#post-list .card-title {
+  font-weight: 600 !important;
+}
+
+/* 포스트 내부에서 보이는 제목들 */
+.post-title,
+article h1,
+.content h1,
+main h1 {
+  font-weight: 600 !important;
+}
