@@ -93,14 +93,14 @@ image: /assets/img/posts/lec2.png
 - 인프라는 이런 구성 요소들이 한데 모여있는 **Datacenter** 형태로 구축됨
 
 
-### **Server (서버)**
+### **Server**
 - 클라이언트(사용자나 다른 시스템)에 서비스를 제공하는 컴퓨터
 - 고신뢰성(reliability)과 요청 처리 능력을 위해 설계됨
     - ex: 다중 코어(Multi-core) CPU를 가진 1~2 소켓 서버, 안정성을 위한 ECC 메모리 사용 등
 - 최근 변화: AI와 고성능 연산 수요로 인해 GPU, FPGA, AI 전용 accelerator 등이 서버에 탑재되고 있음
 
 
-### **Blade Server (블레이드 서버)**
+### **Blade Server**
 - 대규모 환경에서는 공간 절약을 위해 Blade 구조를 사용함
 - 좁은 공간에 컴퓨팅 파워를 효율적으로 집약하기 위한 구조임
 - 블레이드 서버의 주요 장점:
@@ -110,7 +110,7 @@ image: /assets/img/posts/lec2.png
     - 전력 및 냉각 효율 (Power & Cooling)
 
 
-### **Racks (랙)**
+### **Racks**
 <img src="/assets/img/posts/unit.png" alt="provisioning" width="150">
 
 - 블레이드 서버는 랙(rack)이라는 금속 프레임에 장착됨
@@ -118,12 +118,12 @@ image: /assets/img/posts/lec2.png
 - 하나의 랙에는 최대 42개의 1U(=1 rack unit) 서버를 장착할 수 있음
 
 
-### **Heterogeneous Servers (이기종 서버 환경)**
+### **Heterogeneous Servers**
 - 모든 서버가 동일하지는 않음 (not homogeneous)
 - 즉, 서버마다 내부 하드웨어 구성이 다를 수 있으며 각 서버는 주요 애플리케이션 유형(예: 데이터베이스, 웹서버, AI 연산 등)에 맞게 최적화된 구성을 가짐 => CPU 중심형 / GPU 중심형 / 메모리 중심형 서버가 혼합
 
 
-### **Networking (네트워킹)**
+### **Networking**
 - 클라우드 자원은 대부분 인터넷을 통해 사용자에게 전달됨
 - 이를 위해 제3의 네트워크 서비스 제공자(통신사, 백본 사업자 등)이 구축/유지하는 대규모 네트워크 인프라가 필요함
 - 주요 네트워크 장비 구성:
@@ -132,7 +132,7 @@ image: /assets/img/posts/lec2.png
     - 무선 액세스 포인트 (Wireless Access Points)
 
 
-### **Storage (스토리지)**
+### **Storage**
 - 기본 저장장치:
     - 디스크 트레이(HDD), SSD, NVM 플래시 메모리 등
 - 스토리지 어레이 (Storage Array):
@@ -141,12 +141,12 @@ image: /assets/img/posts/lec2.png
     - 여러 서버가 동시에 접근할 수 있도록 전용 네트워크를 통해 공유(storage network)됨
 
 
-### **Cluster (클러스터)**
+### **Cluster**
 - 여러 개의 랙(rack)이 모여 하나의 클러스터(cluster)를 이룸
 - 대규모 병렬 처리나 분산 연산을 위해 서버들을 묶은 단위라고 보면 됨
 
 
-### **Datacenter (데이터센터)**
+### **Datacenter**
 - 여러 클러스터(서버와 스토리지 팜)이 연결되어 형성된 대규모 컴퓨팅 시설
 - 규모 예시:
     - 5만~20만 개의 랙(racks)
