@@ -1,9 +1,9 @@
 ---
-title: David Bowie — It’s No Game, Pt 1 가사 번역
+title: "[번역] David Bowie — It’s No Game, Pt 1 가사"
 description: 1980년 발매된 David Bowie의 Scary Monsters 앨범 첫번째 수록곡 "It’s No Game"의 한국어 번역
 date: 2025-10-13
 categories: [etc]
-tags: [david bowiw, lyrics]
+tags: [david bowie, lyrics]
 image: /assets/img/posts/itsno.webp
 ---
 
