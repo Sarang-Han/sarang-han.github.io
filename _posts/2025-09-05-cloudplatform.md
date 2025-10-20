@@ -94,12 +94,12 @@ image: /assets/img/posts/lec3.png
 
 ## **Amazon Web Service Intro**
 
-### What is AWS?
+### **What is AWS?**
 
 > **AWS (Amazon Web Services)**는 아마존이 제공하는 **클라우드 서비스 플랫폼**으로, 사용자는 자신의 비즈니스나 조직의 요구에 맞게 다양한 서비스를 조합하여 사용할 수 있음
 
 
-### Major AWS Services
+### **Major AWS Services**
 > AWS는 IaaS부터 PaaS, 그리고 Serverless까지 폭넓은 서비스를 지원함
 
 | 서비스 | 이름(풀네임) | 주요 기능 |
@@ -114,7 +114,7 @@ image: /assets/img/posts/lec3.png
 | **IAM** | Identity and Access Management | 세밀한 접근 권한 제어 및 사용자 관리 |
 
 
-### Some History of AWS
+### **Some History of AWS**
 
 | 연도 | 사건 | 설명 |
 |------|------|------|
@@ -124,7 +124,7 @@ image: /assets/img/posts/lec3.png
 | **2008–2013** | Google App Engine, Azure, Google Compute Engine 등장 | 클라우드 경쟁 본격화 |
 
 
-### Why AWS?
+### **Why AWS?**
 
 - **여러 클라우드 제공자 중 하나지만, 시장 점유율 약 33%**
   - 주요 경쟁자: Microsoft Azure, Google Cloud
@@ -133,7 +133,7 @@ image: /assets/img/posts/lec3.png
   - AWS는 IaaS + PaaS를 모두 지원하며, 가장 다양한 선택지를 제공
 
 
-### AWS Global Infrastructure
+### **AWS Global Infrastructure**
 
 AWS는 전 세계를 **Region(지역)** 단위로 나누어 자원을 제공한다.
 
@@ -150,7 +150,7 @@ AWS는 전 세계를 **Region(지역)** 단위로 나누어 자원을 제공한�
 - 예시: `ap-southeast-2a`, `ap-southeast-2b`
 
 
-### Interacting with AWS
+### **Interacting with AWS**
 
 AWS를 사용하는 방법 세 가지:
 
